@@ -27,19 +27,19 @@ RC(5,0) RC(5,1) RC(5,2)
         diode-direction = "row2col";
 
         col-gpios
-            = <&pro_micro_d 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro_d 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro_d 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro_d 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&pro_micro_d 19 GPIO_ACTIVE_HIGH>
+            , <&pro_micro_d 18 GPIO_ACTIVE_HIGH>
+            , <&pro_micro_d 14 GPIO_ACTIVE_HIGH>
+            , <&pro_micro_d 13 GPIO_ACTIVE_HIGH>
             ;
 
         row-gpios
-            = <&pro_micro_a 1 GPIO_ACTIVE_HIGH>
-            , <&pro_micro_d 0 GPIO_ACTIVE_HIGH>
-            , <&pro_micro_a 3 GPIO_ACTIVE_HIGH>
-            , <&pro_micro_d 4 GPIO_ACTIVE_HIGH>
-            , <&pro_micro_a 5 GPIO_ACTIVE_HIGH>
-            , <&pro_micro_d 6 GPIO_ACTIVE_HIGH>
+            = <&pro_micro_a 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro_a 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro_d 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro_a 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
 };
