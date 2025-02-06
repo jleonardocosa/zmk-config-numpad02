@@ -21,7 +21,7 @@
 
         bt_layer {
             bindings = <
-                &none          &none          &none           &out OUT_USB
+                &studio_unlock &none          &none           &out OUT_USB
                 &none          &none          &none           &out OUT_BLE
                 &none          &none          &none           &bootloader
                 &none          &none          &none           &none
