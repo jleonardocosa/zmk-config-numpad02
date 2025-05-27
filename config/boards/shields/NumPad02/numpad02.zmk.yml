@@ -1,0 +1,11 @@
+file_format: "1"
+id: numpad02
+name: NumPad02
+type: shield
+url: https://github.com/jleonardocosa/zmk-config-numpad02
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - numpad02
+  - numpad02_dongle
