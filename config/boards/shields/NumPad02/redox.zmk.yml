@@ -1,0 +1,12 @@
+file_format: "1"
+id: redox
+name: Redox
+type: shield
+url: https://github.com/jleonardocosa/Redox_Dongle
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - redox_left
+  - redox_right
+  - redox_dongle
