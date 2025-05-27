@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 config NUMPAD02
-	def_bool $(shields_list_contains, NumPad02)
+	def_bool $(shields_list_contains, NumPad02_macro)
 
 config SHIELD_NUMPAD02_DONGLE
-	def_bool $(shield_list_contains,NumPad02_Dongle)
+	def_bool $(shield_list_contains,NumPad02_dongle)
