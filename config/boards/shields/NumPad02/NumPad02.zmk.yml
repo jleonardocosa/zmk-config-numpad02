@@ -7,5 +7,5 @@ requires: [pro_micro]
 features:
   - keys
 siblings:
-  - numpad02
+  - numpad02_macro
   - numpad02_dongle
