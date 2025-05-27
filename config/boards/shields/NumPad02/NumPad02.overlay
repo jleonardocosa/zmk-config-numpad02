@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: MIT
  */
 
+#include "NumPad02.dtsi"
+
  &kscan0 {
      col-gpios 
          = <&pro_micro 14 GPIO_ACTIVE_HIGH>,  // c4 14
