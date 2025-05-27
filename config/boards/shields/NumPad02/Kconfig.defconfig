@@ -1,6 +1,39 @@
-if SHIELD_NUMPAD02
+# Copyright (c) 2021 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_NUMPAD02_DONGLE
 
 config ZMK_KEYBOARD_NAME
 	default "NumPad02"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+config ZMK_USB
+	default y
+
+#arranca aqui
+
+config ZMK_SPLIT
+    default y
+
+#cierra aqui
+
+endif
+
+if SHIELD_NUMPAD02 || SHIELD_NUMPAD02_DONGLE
+
+config ZMK_SPLIT
+    default y
+
+#arranca aqui
+
+#config ZMK_USB
+   # default y
+
+#cierra aqui
+
+config ZMK_BLE
+    default y
 
 endif
