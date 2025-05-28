@@ -1,7 +1,7 @@
 # Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config NUMPAD02_MACRO
+config SHIELD_NUMPAD02_MACRO
 	def_bool $(shields_list_contains, NumPad02_macro)
 
 config SHIELD_NUMPAD02_DONGLE
