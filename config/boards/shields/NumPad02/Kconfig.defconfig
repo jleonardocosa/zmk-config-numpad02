@@ -37,3 +37,17 @@ config ZMK_BLE
     default y
 
 endif
+
+
+if SHIELD_NUMPAD02_MACRO
+
+config ZMK_SPLIT_ROLE_PERIPHERAL
+    default y
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_BLE
+    default y
+
+endif
