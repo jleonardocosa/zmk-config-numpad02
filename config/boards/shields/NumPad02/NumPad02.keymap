@@ -21,7 +21,7 @@
 
         bt_layer {
             bindings = <
-                &none          &none          &none           &none
+                &sys_reset          &bootloader         &kp_F8         &kp_DEL
                 &none          &none          &none           &none
                 &none          &none          &none           &none
                 &none          &none          &none           &none
